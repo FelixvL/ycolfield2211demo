@@ -1,2 +1,2 @@
-hello world /// HOi van Felix
+hello world /// HOi van Felix // Tom doet wat anders
 dit is mijn feature

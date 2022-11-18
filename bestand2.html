@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <script>
+        
+        function beginnen(){ // Verbose
+            var deDOM = document.getElementsByTagName("html");
+            var x = document.getElementById("idvanvakje");
+            console.log(deDOM);
+            document.getElementById("checkit").innerHTML += "<br>Welkom: "+x.value;
+            document.getElementById("checkit").style.backgroundColor = 'yellow';
+            document.getElementById("checkit").hidden = true;
+            var getal = parseInt(x.value);
+            console.log(getal + getal);
+            if(getal == 12){
+
+            }
+            else if(true){
+
+            }
+            else if(false){
+
+            }else{
+
+            }
+            for(var y = 2; y< 10; y+=3){
+                alert(y);
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="idvanvakje"><input onclick="beginnen()" type="button" value="Klik Hier">
+    <div id="checkit">Welkom:</div>
+</body>
+</html>
